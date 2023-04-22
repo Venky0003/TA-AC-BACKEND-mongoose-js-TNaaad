@@ -62,7 +62,7 @@ let UserSchema = new Schema(
     ],
     comments: [
       {
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId, //this should be Comment objectid
         ref: 'Comment',
       },
     ],
