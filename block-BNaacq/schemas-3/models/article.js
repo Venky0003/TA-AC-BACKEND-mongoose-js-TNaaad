@@ -31,7 +31,7 @@ let commentSchema = new Schema(
   {
     content: { type: String, required: true },
     author: {
-      type: Schema.Types.ObjectId,
+      type: Schema.Types.ObjectId, //this should be User objectid
       ref: 'User',
       required: true,
     },
